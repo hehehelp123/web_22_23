@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>3d модельки</title>
+  <link href="outlines.css" rel="stylesheet">
+  <meta charset="utf-8">
+</head>
+<body>
+<header>
+  <div style="float:left; height:128px; width:200px;">
+    <img src = "logo.png" height="128px">
+  </div>
+  <div style="height:128px;">
+    <div style="height:64px; width:60%; display:inline-block; text-align: center;">
+      Поиск
+    </div>
+    <div style="float: right; height:64px; width:10%; display:inline-block; text-align: center;">
+      Войти
+    </div>
+    <div style="height:64px; text-align: center;">
+      <nav>
+        Навигация по странице
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div style="float: left; padding: 15px;">
+      Фильтры
+      <code>
+        <pre>
+filterItems(param: any): void {
+    let val: string = param;
+
+    if (val) {
+      if (val.trim() !== '') {
+        this.filterItemsList = this.items.filter((data) => {
+          console.log(data.category);
+          return data.category.toLowerCase().indexOf(val.toLowerCase()) > -1;
+        })
+      }
+    }
+}
+        </pre>
+      </code>
+    </div>
+    <div style="display:inline-block; padding: 15px;">
+      Результаты
+      <pre>
+
+      ▄▀▀▀▄        
+▄███▀ ◐ ▄▀▀▀▄      
+  ▄███▀ ◐    ▌   
+   ▌ ▄▀▀▀▄   ▌    
+▄███▀ ◐   ▌  ▌    
+    ▌     ▐▄▄▌     
+    ▌     ▐▄▄     
+    ▌    ▄▀▒▒▀▀▀▀▄
+   ▐    ▐▒▒▒▒▒▒▒▒▀▀▄
+   ▐    ▐▄▒▒▒▒▒▒▒▒▒▒▀▄
+    ▀▄    ▀▄▒▒▒▒▒▒▒▒▒▒▀▄
+      ▀▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▀▄
+           ▌▌ ▌▌     
+           ▌▌ ▌▌     
+         ▄▄▌▌▄▌▌     
+      </pre>
+    </div>
+  </section>
+</main>
+<footer>
+  <h2>
+    Контакты
+  </h2>
+  <ul>
+    <li>6-666-666-66-66</li>
+    <li>hello@darkness.ru</li>
+  </ul>
+</footer>
+</body>
+</html>
