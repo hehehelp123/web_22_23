@@ -1,0 +1,115 @@
+:root {
+    --bg-color: white;
+    --border-color: black;
+    --hover-color: slategrey;
+}
+
+div.div-bordered {
+    border: 2px solid var(--border-color);
+    border-radius: 24px;
+}
+
+div.div-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.div-hovered:hover{
+    background: radial-gradient(ellipse at bottom, var(--hover-color) 0%, var(--bg-color) 55%);
+}
+
+div.main-panel {
+    display: flex;
+    height: 128px;
+}
+
+img.logo {
+    height: 128px
+}
+
+div.main-panel-subBlock {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    height: 128px;
+}
+
+div.search-login-block {
+    display: flex;
+}
+
+div.search {
+    margin: 16px 32px 10px 0;
+    height: 54px;
+    width: 90%;
+    text-align: center;
+}
+
+div.log-in-button {
+    margin-left: 20px;
+    height: 32px;
+    width: 64px;
+}
+
+div.navigation {
+    display: flex;
+    height: 32px;
+    width: 50%;
+    text-align: center;
+}
+
+div.navigation-button {
+    width: 256px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+div.filters {
+    padding: 15px;
+}
+
+div.results {
+    padding: 15px;
+}
+
+body {
+    padding: 0 30px;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Courier New", "Courier", monospace;
+    color: #000000;
+}
+
+section.main-section {
+    display: flex;
+}
+
+code {
+    font-size: 14px;
+    font-family: "Courier New", "Courier", monospace;
+    color: #6a2cce;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background: #CCCCCC;
+    width: 100%;
+    border-top: 6px solid black;
+    font-family: "fantasy", "Trattatello", monospace;
+    color: #888888;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+@media only screen and (max-device-width : 640px) {
+    img.logo {
+        display: none;
+    }
+    div.filters {
+        display: none;
+    }
+}
