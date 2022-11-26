@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery.event.drag": "^2.2.2",
+    "magnificent": "^2.2.4"
+  }
+}

@@ -1,0 +1,20 @@
+div.div-navigation {
+    display: flex;
+    font-family: "Courier New", "Courier", monospace;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.navigation-button {
+    border-right: 1px solid var(--border-color);
+    width: 160px;
+    height: 32px;
+    color: #000000;
+}
+
+div.navigation-button-chosen {
+    border-bottom: 1px solid var(--border-color);
+}
