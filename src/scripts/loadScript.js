@@ -5,6 +5,3 @@ window.addEventListener("load", function () {
     const timeElem = document.getElementsByClassName("time-display")[0];
     timeElem.textContent = "Load time: " + loadTime + " seconds"
 });
-
-$host = $('[mag-thumb="inner"]');
-$host.mag();
