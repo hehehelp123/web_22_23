@@ -1,0 +1,21 @@
+div.div-footer {
+    height: 128px;
+}
+
+footer {
+    position: fixed;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    background: #CCCCCC;
+    width: 100%;
+    border-top: 6px solid black;
+    font-family: "fantasy", "Trattatello", monospace;
+    color: #888888;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+div.time-display {
+
+}

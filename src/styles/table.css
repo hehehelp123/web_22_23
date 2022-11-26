@@ -1,0 +1,16 @@
+table {
+    width: 80%;
+    background: white;
+    color: black;
+}
+
+th {
+    padding: 10px;
+    border: 1px solid var(--border-color);
+}
+
+td {
+    font-size: 0.8em;
+    padding: 5px 7px;
+    border: 1px solid var(--border-color);
+}

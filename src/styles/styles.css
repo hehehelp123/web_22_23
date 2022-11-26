@@ -1,1 +1,10 @@
-@import url(./outlines.css);
+@import url(../../node_modules/bootstrap/dist/css/bootstrap.css);
+@import url(../../node_modules/magnificent/src/css/mag.css);
+@import url(../../node_modules/magnificent/src/theme/default.css);
+@import url(header.css);
+@import url(searchMenu.css);
+@import url(buttons.css);
+@import url(randomPhrase.css);
+@import url(table.css);
+@import url(footer.css);
+@import url(mainPage.css);

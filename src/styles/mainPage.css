@@ -1,0 +1,57 @@
+:root {
+    --bg-color: white;
+    --border-color: black;
+    --hover-color: slategrey;
+}
+
+div.filters {
+    padding: 15px;
+}
+
+div.results {
+    padding: 0 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.images {
+    padding: 15px 0 0 0;
+    display: flex;
+}
+
+img.img-shadowed {
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+body {
+    padding: 0 30px;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Courier New", "Courier", monospace;
+    color: #000000;
+}
+
+section.main-section {
+    display: flex;
+}
+
+code {
+    font-size: 14px;
+    font-family: "Courier New", "Courier", monospace;
+    color: #6a2cce;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media only screen and (max-device-width : 640px) {
+    img.logo {
+        display: none;
+    }
+    div.filters {
+        display: none;
+    }
+}
